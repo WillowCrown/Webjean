@@ -85,6 +85,7 @@ production:
   primary: &primary_production
     <<: *default
     database: web_jean_production
+    url: <%= ENV['DATABASE_URL'] %>
     username: web_jean
     password: <%= ENV["WEB_JEAN_DATABASE_PASSWORD"] %>
   cache:
