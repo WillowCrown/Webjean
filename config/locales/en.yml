@@ -4,6 +4,8 @@
 #
 # To use the locales, use `I18n.t`:
 #
+vi:
+  hello: "Xin chào thế giới"
 #     I18n.t "hello"
 #
 # In views, this is aliased to just `t`:
